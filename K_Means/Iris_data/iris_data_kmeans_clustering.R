@@ -109,3 +109,8 @@ table(kmeans_petal_5$cluster, iris$Species)
 
 ggplot(iris, aes(Petal.Length, Petal.Width, color = Species)) + geom_point() # Original
 ggplot(iris, aes(Petal.Length, Petal.Width, color = kmeans_petal_5$cluster)) + geom_point() # Model
+
+# We can use the plots to see how the model is segmenting clusters. Interestingly, though one would 
+# think that more clusters is better, we see k = 3 has the highest accuracy with an acceptable
+# tightness metric. This example (iris dataset) shows how one cannot blindly chase one metric without
+# considering others. 
