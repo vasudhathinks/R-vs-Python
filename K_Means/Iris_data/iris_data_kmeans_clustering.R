@@ -6,7 +6,7 @@ rm(list=ls())
 getwd()
 
 # Amend setting the working directory as necessary
-setwd("/Users/vasudha/Documents/GitHub/R_vs_Python/K_Means/Iris_data/")
+setwd("...")
 getwd()
 
 # Load the data and see what it is
