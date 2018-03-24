@@ -1,2 +1,2 @@
-# R_vs_Python
-Exercises executed in both R and python for practice and comparison
+# Comparing exercises in R and Python
+Machine learning algorithms executed in both R and python for practice and comparison.
