@@ -102,3 +102,4 @@ ENV/
 
 # Add'l manual ignores
 .DS_Store
+*/.DS_Store
